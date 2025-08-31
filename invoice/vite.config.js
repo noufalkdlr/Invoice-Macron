@@ -13,7 +13,7 @@ export default defineConfig({
       },
       includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
       manifest: {
-        name: "Deckbyte Invoice",
+        name: "Macron Invoice",
         short_name: "InvoiceGen",
         description: "Create and download invoices easily",
         theme_color: "#ffffff",

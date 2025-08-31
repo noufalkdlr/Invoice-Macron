@@ -42,8 +42,8 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
   logo: {
-    width: 190,
-    marginBottom: 27,
+    width: 130,
+    marginBottom: 22,
   },
   CName: {
     fontFamily: "Montserrat",
@@ -76,7 +76,7 @@ export const styles = StyleSheet.create({
     fontFamily: "Montserrat",
     fontSize: 18,
     fontWeight: "bold",
-    color: "#cc0e4e",
+    color: "#000000",
     marginBottom: 3,
   },
   Table: {

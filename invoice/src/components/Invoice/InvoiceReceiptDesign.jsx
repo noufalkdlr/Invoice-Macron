@@ -1,7 +1,7 @@
 import { Page, Text, View, Document, Image } from "@react-pdf/renderer";
 import { styles } from "./styles";
 
-import logo from "../../assets/DeckbyteLogo.png";
+import logo from "../../assets/MacronLogo.png";
 
 const InvoiceReceiptDesign = ({
   data,
@@ -45,12 +45,12 @@ const InvoiceReceiptDesign = ({
           </View>
           <View style={styles.CNameInvoice}>
             <View>
-              <Text style={styles.CName}>DECKBYTE TECHNOLOGIES</Text>
+              <Text style={styles.CName}>MACRON DIGITAL SOLUTIONS</Text>
               <View>
                 <Text style={{ marginBottom: 5 }}>
-                  Kodungallur, Thrissur, Kerala, India
+                  Chalakudy, Thrissur, Kerala - 680731
                 </Text>
-                <Text>+91 95628 66814 | www.deckbyte.in</Text>
+                <Text>+91 859 208 2143</Text>
               </View>
             </View>
             <View style={styles.InvoiceNoDate}>
