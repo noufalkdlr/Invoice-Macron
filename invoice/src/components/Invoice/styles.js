@@ -42,8 +42,8 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
   logo: {
-    width: 130,
-    marginBottom: 22,
+    width: 190,
+    marginBottom: 27,
   },
   CName: {
     fontFamily: "Montserrat",
