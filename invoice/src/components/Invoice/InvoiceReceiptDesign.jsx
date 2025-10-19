@@ -47,9 +47,9 @@ const InvoiceReceiptDesign = ({
             <View>
               <Text style={styles.CName}>MACRON DIGITAL SOLUTIONS</Text>
               <View>
-                {/* <Text style={{ marginBottom: 5 }}>
+                <Text style={{ marginBottom: 5 }}>
                   Chalakudy, Thrissur, Kerala - 680731
-                </Text> */}
+                </Text>
                 <Text>+91 859 208 2143</Text>
               </View>
             </View>
