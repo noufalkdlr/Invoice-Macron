@@ -126,7 +126,11 @@ const Home = () => {
 
   const handleForm = (e) => {
     e.preventDefault();
-    handlePreviewPage();
+    if (invoiceType){
+      handlePreviewPage();
+    }else{
+      alert('Please Select an Invoice Type')
+    }
   };
 
   useEffect(() => {
