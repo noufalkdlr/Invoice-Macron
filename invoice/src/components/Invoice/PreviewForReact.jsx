@@ -99,6 +99,21 @@ const PreviewForReact = ({
 
         {/* {------------------- Item Name, QTY, Price END ---------------------} */}
 
+        {/* {------------------- Sub Total ---------------------} */}
+        <div className="flex w-full">
+          <div className="flex flex-col w-full">
+            <div className="flex w-full">
+              <p className="w-[50%] py-4 px-4 sm:px-8 sm:py-6 border font-worksans text-neutral-700 ">
+                Sub Total
+              </p>
+              <p className="w-[50%] py-4 px-4 sm:px-8 sm:py-6 border border-l-0 font-worksans text-neutral-700 ">
+                {totalAmount}
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* {------------------- Sub Total End ---------------------} */}
+
         {/* {------------------- Payment ---------------------} */}
 
         {invoiceType === "Invoice" ? (
